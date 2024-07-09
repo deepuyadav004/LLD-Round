@@ -24,16 +24,15 @@ public class Game {
         while(true){
             long attackPower = dice.rollDice();
             long defendPower = dice.rollDice();
-            System.out.println("Running...");
 
             if(turn){
                 if(attackPower*player1.getAttack() > defendPower*player2.getStrength()){
                     player2.setHealth(player2.getHealth() - (attackPower*player1.getAttack() - defendPower*player2.getStrength()));
                 }
                 if(player2.getHealth() <= 0){
-                    System.out.println("Winner is player "+player1.getName());
                     outputHandler.printPlayer(player1);
                     outputHandler.printPlayer(player2);
+                    System.out.println("Winner is player "+player1.getName());
                     return;
                 }
             }else{
@@ -41,15 +40,16 @@ public class Game {
                     player1.setHealth(player1.getHealth() - (attackPower*player2.getAttack() - defendPower*player1.getStrength()));
                 }
                 if(player1.getHealth() <= 0){
-                    System.out.println("Winner is player "+player2.getName());
                     outputHandler.printPlayer(player1);
                     outputHandler.printPlayer(player2);
+                    System.out.println("Winner is player "+player2.getName());
                     return;
                 }
             }
             turn = !turn;
             outputHandler.printPlayer(player1);
             outputHandler.printPlayer(player2);
+            outputHandler.newLine();
         }
     }
 }

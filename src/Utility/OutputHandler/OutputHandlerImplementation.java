@@ -15,4 +15,8 @@ public class OutputHandlerImplementation implements OutputHandlerInterface {
         System.out.println(toBePrinted);
         return;
     }
+
+    public void newLine(){
+        System.out.println("");
+    }
 }
