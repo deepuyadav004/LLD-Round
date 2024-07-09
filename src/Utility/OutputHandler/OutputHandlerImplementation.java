@@ -5,10 +5,10 @@ import model.Player;
 public class OutputHandlerImplementation implements OutputHandlerInterface {
     @Override
     public void printPlayer(Player player) {
-        System.out.println(player.getName());
-        System.out.println(player.getAttack());
-        System.out.println(player.getHealth());
-        System.out.println(player.getStrength());
+        System.out.println("Player name: " + player.getName());
+        System.out.println("Attack: "+player.getAttack());
+        System.out.println("Health: "+player.getHealth());
+        System.out.println("Strength: "+player.getStrength());
     }
 
     public void printString(String toBePrinted){
