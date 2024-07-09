@@ -10,4 +10,9 @@ public class OutputHandlerImplementation implements OutputHandlerInterface {
         System.out.println(player.getHealth());
         System.out.println(player.getStrength());
     }
+
+    public void printString(String toBePrinted){
+        System.out.println(toBePrinted);
+        return;
+    }
 }
