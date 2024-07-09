@@ -8,16 +8,16 @@ import model.Dice;
 import model.Player;
 
 public class GameInitializer {
-    Player player1;
-    Player player2;
-    Dice dice;
-    DefaultPlayerInitializer defaultPlayerInitializer;
-    CustomPlayerInitializer customPlayerInitializer;
-    InputHandlerInterface inputHandler = new InputHandler();
-    Game game;
+    private Player player1;
+    private Player player2;
+    private Dice dice;
+    private DefaultPlayerInitializer defaultPlayerInitializer;
+    private CustomPlayerInitializer customPlayerInitializer;
+    private InputHandlerInterface inputHandler = new InputHandler();
+    private Game game;
 
 
-    void initializeGame(){
+    public void initializeGame(){
         long gameType;
         System.out.println("Press 1 for default mode and press 2 for custom mode: ");
         gameType = inputHandler.integerInput();

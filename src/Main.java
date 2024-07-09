@@ -1,3 +1,4 @@
+import GameLogic.GameInitializer;
 import model.Player;
 
 public class Main {
@@ -5,6 +6,7 @@ public class Main {
 
         System.out.println("Game is Loading...");
 
-        Player pr = new Player("Deepu", -1, 0, 0);
+        GameInitializer gameInitializer = new GameInitializer();
+        gameInitializer.initializeGame();
     }
 }
