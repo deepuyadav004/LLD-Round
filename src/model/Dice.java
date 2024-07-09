@@ -13,6 +13,7 @@ public class Dice {
     public Dice(int sides) {
         this.sides = sides;
         this.random = new Random();
+        throw new IllegalArgumentException("Number of sides must be at least 1");
     }
 
     /*

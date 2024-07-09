@@ -13,7 +13,7 @@ public class Player {
     * */
     public Player(String name, long health, long strength, long attack) {
         if (health < 1 || strength < 1 || attack < 1) {
-            throw new IllegalArgumentException("Invalid Input");
+            throw new IllegalArgumentException("Invalid Player Input");
         }
         this.name = name;
         this.health = health;
