@@ -27,5 +27,35 @@ public class Player {
 
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getHealth() {
+        return health;
+    }
+
+    public void setHealth(long health) {
+        this.health = health;
+    }
+
+    public long getStrength() {
+        return strength;
+    }
+
+    public void setStrength(long strength) {
+        this.strength = strength;
+    }
+
+    public long getAttack() {
+        return attack;
+    }
+
+    public void setAttack(long attack) {
+        this.attack = attack;
+    }
 }
