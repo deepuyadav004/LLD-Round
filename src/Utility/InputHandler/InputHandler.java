@@ -17,4 +17,9 @@ public class InputHandler implements InputHandlerInterface {
         long userInput = scanner.nextLong();
         return userInput;
     }
+
+    public int smallIntegerInput(){
+        int userInput = scanner.nextInt();
+        return userInput;
+    }
 }

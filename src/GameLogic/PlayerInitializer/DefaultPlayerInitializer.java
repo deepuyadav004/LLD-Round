@@ -9,7 +9,7 @@ public class DefaultPlayerInitializer {
 
     Player player;
 
-    Player playerInitializer(){
+    public Player playerInitializer(){
         System.out.println("Enter name of the player: ");
         String name = inputHandler.inputString();
 
