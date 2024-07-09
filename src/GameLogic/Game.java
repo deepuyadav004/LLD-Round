@@ -32,7 +32,7 @@ public class Game {
                 if(player2.getHealth() <= 0){
                     outputHandler.printPlayer(player1);
                     outputHandler.printPlayer(player2);
-                    System.out.println("Winner is player "+player1.getName());
+                    outputHandler.printString("Winner is player "+player1.getName());
                     return;
                 }
             }else{
@@ -42,7 +42,7 @@ public class Game {
                 if(player1.getHealth() <= 0){
                     outputHandler.printPlayer(player1);
                     outputHandler.printPlayer(player2);
-                    System.out.println("Winner is player "+player2.getName());
+                    outputHandler.printString("Winner is player "+player2.getName());
                     return;
                 }
             }

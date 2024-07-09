@@ -13,7 +13,6 @@ public class OutputHandlerImplementation implements OutputHandlerInterface {
 
     public void printString(String toBePrinted){
         System.out.println(toBePrinted);
-        return;
     }
 
     public void newLine(){
