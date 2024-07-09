@@ -1,6 +1,6 @@
-package main.Utility.OutputHandler;
+package main.java.Utility.OutputHandler;
 
-import main.model.Player;
+import main.java.model.Player;
 
 public interface OutputHandlerInterface {
     void printPlayer(Player player);

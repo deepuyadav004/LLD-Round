@@ -1,13 +1,13 @@
-package main.GameLogic;
+package main.java.GameLogic;
 
-import main.GameLogic.PlayerInitializer.CustomPlayerInitializer;
-import main.GameLogic.PlayerInitializer.DefaultPlayerInitializer;
-import main.Utility.InputHandler.InputHandler;
-import main.Utility.InputHandler.InputHandlerInterface;
-import main.Utility.OutputHandler.OutputHandlerImplementation;
-import main.Utility.OutputHandler.OutputHandlerInterface;
-import main.model.Dice;
-import main.model.Player;
+import main.java.GameLogic.PlayerInitializer.CustomPlayerInitializer;
+import main.java.GameLogic.PlayerInitializer.DefaultPlayerInitializer;
+import main.java.Utility.InputHandler.InputHandler;
+import main.java.Utility.InputHandler.InputHandlerInterface;
+import main.java.Utility.OutputHandler.OutputHandlerImplementation;
+import main.java.Utility.OutputHandler.OutputHandlerInterface;
+import main.java.model.Dice;
+import main.java.model.Player;
 
 public class GameInitializer {
     private Player player1;

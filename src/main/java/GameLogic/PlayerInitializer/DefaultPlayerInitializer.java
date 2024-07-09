@@ -1,8 +1,8 @@
-package main.GameLogic.PlayerInitializer;
+package main.java.GameLogic.PlayerInitializer;
 
-import main.Utility.InputHandler.InputHandler;
-import main.Utility.InputHandler.InputHandlerInterface;
-import main.model.Player;
+import main.java.Utility.InputHandler.InputHandler;
+import main.java.Utility.InputHandler.InputHandlerInterface;
+import main.java.model.Player;
 
 public class DefaultPlayerInitializer {
     InputHandlerInterface inputHandler = new InputHandler();

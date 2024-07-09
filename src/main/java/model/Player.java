@@ -1,6 +1,6 @@
-package main.model;
+package main.java.model;
 
-import main.Utility.RandomNumberGenerator;
+import main.java.Utility.RandomNumberGenerator;
 
 public class Player {
     private String name;

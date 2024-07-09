@@ -1,8 +1,8 @@
-package main;
+package main.java;
 
-import main.GameLogic.GameInitializer;
-import main.Utility.OutputHandler.OutputHandlerImplementation;
-import main.Utility.OutputHandler.OutputHandlerInterface;
+import main.java.GameLogic.GameInitializer;
+import main.java.Utility.OutputHandler.OutputHandlerImplementation;
+import main.java.Utility.OutputHandler.OutputHandlerInterface;
 
 public class Main {
     public static void main(String[] args) {

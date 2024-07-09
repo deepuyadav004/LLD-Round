@@ -1,9 +1,9 @@
-package main.GameLogic;
+package main.java.GameLogic;
 
-import main.Utility.OutputHandler.OutputHandlerImplementation;
-import main.Utility.OutputHandler.OutputHandlerInterface;
-import main.model.Dice;
-import main.model.Player;
+import main.java.Utility.OutputHandler.OutputHandlerImplementation;
+import main.java.Utility.OutputHandler.OutputHandlerInterface;
+import main.java.model.Dice;
+import main.java.model.Player;
 
 public class Game {
     private Player player1;
