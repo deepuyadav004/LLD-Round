@@ -9,7 +9,7 @@ public class Game {
     private Player player1;
     private Player player2;
     private Dice dice;
-    private OutputHandlerInterface outputHandler = new OutputHandlerImplementation();
+    public OutputHandlerInterface outputHandler = new OutputHandlerImplementation();
 
     public Game(Player player1, Player player2, Dice dice) {
         this.player1 = player1;
@@ -17,7 +17,7 @@ public class Game {
         this.dice = dice;
     }
 
-    void startGame(){
+    public void startGame(){
         boolean turn = player1.getHealth() <= player2.getHealth();
         outputHandler.printPlayer(player1);
         outputHandler.printPlayer(player2);
