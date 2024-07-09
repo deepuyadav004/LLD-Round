@@ -1,6 +1,6 @@
-package model;
+package main.model;
 
-import Utility.RandomNumberGenerator;
+import main.Utility.RandomNumberGenerator;
 
 public class Player {
     private String name;

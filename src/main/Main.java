@@ -1,7 +1,8 @@
-import GameLogic.GameInitializer;
-import Utility.OutputHandler.OutputHandlerImplementation;
-import Utility.OutputHandler.OutputHandlerInterface;
-import model.Player;
+package main;
+
+import main.GameLogic.GameInitializer;
+import main.Utility.OutputHandler.OutputHandlerImplementation;
+import main.Utility.OutputHandler.OutputHandlerInterface;
 
 public class Main {
     public static void main(String[] args) {

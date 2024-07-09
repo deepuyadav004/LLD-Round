@@ -1,13 +1,13 @@
-package GameLogic;
+package main.GameLogic;
 
-import GameLogic.PlayerInitializer.CustomPlayerInitializer;
-import GameLogic.PlayerInitializer.DefaultPlayerInitializer;
-import Utility.InputHandler.InputHandler;
-import Utility.InputHandler.InputHandlerInterface;
-import Utility.OutputHandler.OutputHandlerImplementation;
-import Utility.OutputHandler.OutputHandlerInterface;
-import model.Dice;
-import model.Player;
+import main.GameLogic.PlayerInitializer.CustomPlayerInitializer;
+import main.GameLogic.PlayerInitializer.DefaultPlayerInitializer;
+import main.Utility.InputHandler.InputHandler;
+import main.Utility.InputHandler.InputHandlerInterface;
+import main.Utility.OutputHandler.OutputHandlerImplementation;
+import main.Utility.OutputHandler.OutputHandlerInterface;
+import main.model.Dice;
+import main.model.Player;
 
 public class GameInitializer {
     private Player player1;

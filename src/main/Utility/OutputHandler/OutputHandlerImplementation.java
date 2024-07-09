@@ -1,6 +1,6 @@
-package Utility.OutputHandler;
+package main.Utility.OutputHandler;
 
-import model.Player;
+import main.model.Player;
 
 public class OutputHandlerImplementation implements OutputHandlerInterface {
     @Override

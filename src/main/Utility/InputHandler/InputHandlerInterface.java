@@ -1,4 +1,4 @@
-package Utility.InputHandler;
+package main.Utility.InputHandler;
 
 public interface InputHandlerInterface {
     String inputString();

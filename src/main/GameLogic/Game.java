@@ -1,9 +1,9 @@
-package GameLogic;
+package main.GameLogic;
 
-import Utility.OutputHandler.OutputHandlerImplementation;
-import Utility.OutputHandler.OutputHandlerInterface;
-import model.Dice;
-import model.Player;
+import main.Utility.OutputHandler.OutputHandlerImplementation;
+import main.Utility.OutputHandler.OutputHandlerInterface;
+import main.model.Dice;
+import main.model.Player;
 
 public class Game {
     private Player player1;

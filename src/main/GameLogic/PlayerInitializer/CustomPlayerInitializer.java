@@ -1,8 +1,8 @@
-package GameLogic.PlayerInitializer;
+package main.GameLogic.PlayerInitializer;
 
-import Utility.InputHandler.InputHandler;
-import Utility.InputHandler.InputHandlerInterface;
-import model.Player;
+import main.Utility.InputHandler.InputHandler;
+import main.Utility.InputHandler.InputHandlerInterface;
+import main.model.Player;
 
 public class CustomPlayerInitializer {
     InputHandlerInterface inputHandler = new InputHandler();

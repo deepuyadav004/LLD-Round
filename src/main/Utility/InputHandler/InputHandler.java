@@ -1,4 +1,4 @@
-package Utility.InputHandler;
+package main.Utility.InputHandler;
 import java.util.Scanner;
 
 public class InputHandler implements InputHandlerInterface {
