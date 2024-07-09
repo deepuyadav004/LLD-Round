@@ -27,7 +27,7 @@ public class Dice {
     /*
     *  roll class will generate random number between 1 to sides and used by our game
     * */
-    public int roll() {
+    public int rollDice() {
         return random.nextInt(sides) + 1;
     }
 }
