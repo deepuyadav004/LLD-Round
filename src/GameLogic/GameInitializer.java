@@ -11,8 +11,8 @@ public class GameInitializer {
     private Player player1;
     private Player player2;
     private Dice dice;
-    private DefaultPlayerInitializer defaultPlayerInitializer;
-    private CustomPlayerInitializer customPlayerInitializer;
+    private DefaultPlayerInitializer defaultPlayerInitializer = new DefaultPlayerInitializer();
+    private CustomPlayerInitializer customPlayerInitializer = new CustomPlayerInitializer();
     private InputHandlerInterface inputHandler = new InputHandler();
     private Game game;
 

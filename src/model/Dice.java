@@ -24,6 +24,7 @@ public class Dice {
     * */
     public Dice() {
         this.random = new Random();
+        this.sides = 6;
     }
 
     /*
