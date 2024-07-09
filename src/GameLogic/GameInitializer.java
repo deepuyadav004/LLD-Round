@@ -14,6 +14,9 @@ public class GameInitializer {
     DefaultPlayerInitializer defaultPlayerInitializer;
     CustomPlayerInitializer customPlayerInitializer;
     InputHandlerInterface inputHandler = new InputHandler();
+    Game game;
+
+
     void initializeGame(){
         long gameType;
         System.out.println("Press 1 for default mode and press 2 for custom mode: ");
@@ -46,6 +49,7 @@ public class GameInitializer {
             throw new IllegalArgumentException("Game initialization failed.");
         }
 
-
+        game = new Game(player1, player2, dice);
+        game.startGame();
     }
 }
