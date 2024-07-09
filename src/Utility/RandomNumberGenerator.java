@@ -5,6 +5,9 @@ import java.util.Random;
 public class RandomNumberGenerator {
     Random random = new Random();
 
+    public RandomNumberGenerator() {
+    }
+
     /*
     * This function will generate random number between 1 and limit inclusive.
     * This function will be used when user provide a upper limit of attack, strength, health

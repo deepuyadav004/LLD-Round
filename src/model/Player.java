@@ -1,10 +1,13 @@
 package model;
 
+import Utility.RandomNumberGenerator;
+
 public class Player {
     private String name;
     private long health;
     private long strength;
     private long attack;
+    private RandomNumberGenerator randomNumberGenerator;
 
 
     /*
@@ -28,6 +31,10 @@ public class Player {
     * */
     public Player(String name) {
         this.name = name;
+        randomNumberGenerator = new RandomNumberGenerator();
+        health = randomNumberGenerator.generateRandomNumber();
+        strength = randomNumberGenerator.generateRandomNumber();
+        attack = randomNumberGenerator.generateRandomNumber();
     }
 
     public String getName() {
