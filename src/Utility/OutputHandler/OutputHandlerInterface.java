@@ -1,0 +1,7 @@
+package Utility.OutputHandler;
+
+import model.Player;
+
+public interface OutputHandlerInterface {
+    void printPlayer(Player player);
+}
