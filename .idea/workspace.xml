@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae25b829-16e0-48a3-8ce7-f827d6b3621b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GameLogic/GameInitializerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae25b829-16e0-48a3-8ce7-f827d6b3621b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +52,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DefaultPlayerInitializer">
+  <component name="RunManager" selected="JUnit.DiceTest">
     <configuration name="CustomPlayerInitializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Deepu_Yadav" />
       <extension name="coverage">
@@ -80,6 +78,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.java.GameLogic.PlayerInitializer" />
       <option name="MAIN_CLASS_NAME" value="test.java.GameLogic.PlayerInitializer.DefaultPlayerInitializer" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Deepu_Yadav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.model" />
+      <option name="MAIN_CLASS_NAME" value="test.java.model.DiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,28 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Deepu_Yadav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiceTest" />
         <item itemvalue="JUnit.DefaultPlayerInitializer" />
         <item itemvalue="JUnit.CustomPlayerInitializer" />
         <item itemvalue="JUnit.GameInitializerTest" />
         <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,11 +164,17 @@
     <SUITE FILE_PATH="coverage/Deepu_Yadav$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1720620365639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$CustomPlayerInitializer.ic" NAME="CustomPlayerInitializer Coverage Results" MODIFIED="1720620789813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.GameLogic.PlayerInitializer.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Deepu_Yadav$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1720620473847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.GameLogic.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Deepu_Yadav$GameInitializerTest.ic" NAME="GameInitializerTest Coverage Results" MODIFIED="1720620640985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.GameLogic.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$DefaultPlayerInitializer.ic" NAME="DefaultPlayerInitializer Coverage Results" MODIFIED="1720620885371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.GameLogic.PlayerInitializer.*</FILTER>
     </SUITE>
   </component>
 </project>
