@@ -54,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GameInitializerTest">
+  <component name="RunManager" selected="JUnit.CustomPlayerInitializer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="Deepu_Yadav" />
@@ -64,6 +64,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomPlayerInitializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Deepu_Yadav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.GameLogic.PlayerInitializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.GameLogic.PlayerInitializer" />
+      <option name="MAIN_CLASS_NAME" value="test.java.GameLogic.PlayerInitializer.CustomPlayerInitializer" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,29 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Deepu_Yadav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Main" />
-      <option name="METHOD_NAME" value="testMain" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomPlayerInitializer" />
         <item itemvalue="JUnit.GameInitializerTest" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Main.testMain" />
       </list>
     </recent_temporary>
   </component>
@@ -162,10 +161,13 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Deepu_Yadav$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1720555947124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1720620365639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Deepu_Yadav$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1720555824348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1720620473847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.GameLogic.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$GameInitializerTest.ic" NAME="GameInitializerTest Coverage Results" MODIFIED="1720620640985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.GameLogic.*</FILTER>
     </SUITE>
   </component>
