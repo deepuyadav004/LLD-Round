@@ -7,7 +7,7 @@ public class Player {
     private long health;
     private long strength;
     private long attack;
-    private RandomNumberGenerator randomNumberGenerator;
+    public RandomNumberGenerator randomNumberGenerator;
 
 
     /*
