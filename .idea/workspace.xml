@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae25b829-16e0-48a3-8ce7-f827d6b3621b" name="Changes" comment="" />
+    <list default="true" id="ae25b829-16e0-48a3-8ce7-f827d6b3621b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/RandomNumberGeneratorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
+  <component name="RunManager" selected="JUnit.RandomNumberGeneratorTest">
     <configuration name="CustomPlayerInitializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Deepu_Yadav" />
       <extension name="coverage">
@@ -98,21 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameInitializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Deepu_Yadav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.GameLogic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.GameLogic" />
-      <option name="MAIN_CLASS_NAME" value="test.java.GameLogic.GameInitializerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Deepu_Yadav" />
       <extension name="coverage">
@@ -128,13 +115,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomNumberGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Deepu_Yadav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.Utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.Utility" />
+      <option name="MAIN_CLASS_NAME" value="test.java.Utility.RandomNumberGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomNumberGeneratorTest" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.DiceTest" />
         <item itemvalue="JUnit.DefaultPlayerInitializer" />
         <item itemvalue="JUnit.CustomPlayerInitializer" />
-        <item itemvalue="JUnit.GameInitializerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,8 +178,14 @@
     <SUITE FILE_PATH="coverage/Deepu_Yadav$DefaultPlayerInitializer.ic" NAME="DefaultPlayerInitializer Coverage Results" MODIFIED="1720620885371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.GameLogic.PlayerInitializer.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1720621526368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.model.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Deepu_Yadav$DiceTest.ic" NAME="DiceTest Coverage Results" MODIFIED="1720621321463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Deepu_Yadav$RandomNumberGeneratorTest.ic" NAME="RandomNumberGeneratorTest Coverage Results" MODIFIED="1720621693032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.Utility.*</FILTER>
     </SUITE>
   </component>
 </project>
