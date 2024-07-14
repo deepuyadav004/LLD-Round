@@ -1,6 +1,4 @@
 <h1>Swiggy ASDE Desging Round</h1>
-<h2>Name: Deepu Kumar Yadav</h2>
-<h2>Gmail: deepu1.yadav72@gmail.com</h2>
 
 Note: I am using Java version 21.
 
